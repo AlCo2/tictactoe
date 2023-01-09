@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1671839029 source:e:\c++\tictactotoe\main.cpp
+1673287150 source:e:\c++\tictactotoe\main.cpp
 	<iostream>
 	"table.h"
 	<conio.h>
 
-1671826713 e:\c++\tictactotoe\table.h
+1673283535 e:\c++\tictactotoe\table.h
 
