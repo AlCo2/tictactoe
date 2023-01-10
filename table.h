@@ -13,8 +13,9 @@ void createTable(){
 }
 void showTable(){
     int n = 0;
+    cout << "\n\n\n\n\n\n\n";
     for(int i=0;i<3;i++){
-        cout << "\t";
+        cout << "\t\t\t\t\t";
         for(int j=0;j<3;j++){
             n++;
             if(j==1 || j==2){
@@ -27,7 +28,7 @@ void showTable(){
         }
         cout << endl;
         if(i==0|| i==1)
-            cout << "\t------+------+------";
+            cout << "\t\t\t\t\t------+------+------";
         cout << endl;
     }
 }

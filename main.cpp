@@ -78,9 +78,7 @@ public:
                 else
                     return player2;
             }
-        }
-        for(int i=0;i<3;i++){
-            if(table[0][i]!="." && table[0][i]==table[1][i] && table[1][i]==table[2][i]){
+             if(table[0][i]!="." && table[0][i]==table[1][i] && table[1][i]==table[2][i]){
                 win = true;
                 if(table[0][i]==player1)
                     return player1;
